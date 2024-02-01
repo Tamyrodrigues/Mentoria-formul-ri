@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EFEFEF;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+body::before {
+    content: "";
+    background: #535971;
+    position: absolute;
+    width: 100%;
+    height: 436px;
+    flex-shrink: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+header h1 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    flex-shrink: 0;
+    color: #fff;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    width: 417px;
+    height: 46px;
+    flex-shrink: 0;
+    font-family: var(--Poppins);
+}
+
+header {
+    margin-top: 100px;
+    width: 750px;
+}
+
+
+/* FORMULRIO */
+
+form {
+    width: 750px;
+    height: 1200px;
+    flex-shrink: 0;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 58px;
+}
+
+.information {
+    border: 0;
+    width: 622px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+legend {
+    color: #535971;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: var(--Staatliches);
+    border-bottom: 1px solid #E6E6F0;
+    padding: 7px;
+    width: 622px;
+}
+
+.personal-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 16px;
+    width: 622px;
+    height: 382px;
+    padding-top: 36px;
+}
+
+.name-surname {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name-surname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 622px;
+    gap: 16px;
+}
+
+.input-name-surname input {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 1px solid var(--Back-Lines-in-white);
+    background: var(--Shapes-02);
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+label {
+    color: #4E4958;
+    font-family: var(--Poppins);
+    font-size: 14px;
+}
+
+span {
+    color: #C1BCCC;
+    font-family: var(--Poppins);
+    font-size: 12px;
+}
+
+.input input {
+    width: 622px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 1px solid var(--Back-Lines-in-white);
+    background: var(--Shapes-02);
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+
+/* informações do mentor */
+
+.mentor-information {
+    border: 0;
+    width: 622px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mentor-information .input {
+    margin-top: 32px;
+}
+
+
+/* schedules */
+
+.schedules {
+    margin-top: 32px;
+}
+
+.schedules2 {
+    margin-top: 32px;
+    border: 0;
+}
+
+.time-date {
+    width: 622px;
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.date input {
+    width: 300px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 1px solid var(--Back-Lines-in-white);
+    background: var(--Shapes-02);
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+}
+
+.time input {
+    width: 140px;
+    height: 56px;
+    flex-shrink: 0;
+    border: 1px solid var(--Back-Lines-in-white);
+    background: var(--Shapes-02);
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+.mentor-information .schedules2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    margin: auto;
+    width: 750px;
+    height: 160px;
+    background: #535971;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+footer input {
+    background: #FF5374;
+    border: 0;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: var(--Staatliches);
+    font-size: 26px;
+}
